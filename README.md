@@ -4,6 +4,27 @@ This Pelican theme provides templates for charlesreid1.com pages.
 
 ## How to install theme
 
+To install the theme, use the `pelican-theme` utility:
+
+```
+git clone https://charlesreid1.com:3000/charlesreid1/charlesreid1.com-theme.git
+
+pelican-themes -i charlesreid1.com-theme
+```
+
+Now you can set the theme in pelicanconf.py from any directory,
+and specify the theme as `charlesreid1.com-theme`, and it will
+use this theme.
+
+When the files in the theme are changed, the installation 
+command should be run again.
+
+For help, run
+
+```
+pelican-themes -h
+```
+
 ## How to use the theme
 
 To use the theme, set the Pelican theme in pelicanconf.py.
