@@ -9,7 +9,11 @@ To install the theme, use the `pelican-theme` utility:
 ```
 git clone https://charlesreid1.com:3000/charlesreid1/charlesreid1.com-theme.git
 
+# if theme not installed, install:
 pelican-themes -i charlesreid1.com-theme
+
+# if theme already installed, upgrade:
+pelican-themes -U charlesreid1.com-theme
 ```
 
 Now you can set the theme in `pelicanconf.py` from any directory,
@@ -21,7 +25,8 @@ THEME = 'charlesreid1.com-theme'
 ```
 
 If/when files in this theme are changed, 
-the `-i` install command should be run again.
+the `-i` install or `-U` upgrade command 
+should be run again.
 
 For help, run:
 
@@ -52,5 +57,6 @@ This is the base charlesreid1.com theme, but there are others.
 These should be updated accordingly:
 
 * Charlesreid1.com wiki theme
-* charlesreid1.github.io theme
+* Charlesreid1.github.io theme
+* Charlesreid1 notes theme
 
