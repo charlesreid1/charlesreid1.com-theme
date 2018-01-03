@@ -12,14 +12,18 @@ git clone https://charlesreid1.com:3000/charlesreid1/charlesreid1.com-theme.git
 pelican-themes -i charlesreid1.com-theme
 ```
 
-Now you can set the theme in pelicanconf.py from any directory,
+Now you can set the theme in `pelicanconf.py` from any directory,
 and specify the theme as `charlesreid1.com-theme`, and it will
-use this theme.
+use this theme. In `pelicanconf.py`, include this:
 
-When the files in the theme are changed, the installation 
-command should be run again.
+```
+THEME = 'charlesreid1.com-theme'
+```
 
-For help, run
+If/when files in this theme are changed, 
+the `-i` install command should be run again.
+
+For help, run:
 
 ```
 pelican-themes -h
@@ -27,7 +31,7 @@ pelican-themes -h
 
 ## How to use the theme
 
-To use the theme, set the Pelican theme in pelicanconf.py.
+To use the theme, set the Pelican theme in `pelicanconf.py`.
 Then, the Pelican site should:
 
 * Create an index landing page
