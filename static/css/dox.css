@@ -1,28 +1,3 @@
-/******** line-dot subway **********************/
-
-div#subway {
-    text-align: center;
-}
-
-html, body {
-    /*height: 100%;*/
-}
-
-path {
-    stroke: #2780e3;
-    stroke-width: 8px;
-
-}
-
-svg .data-point {
-    stroke: black;
-    stroke-width: 4px;
-    fill: white;        
-}
-
-
-
-
 /******************************/
 
 
