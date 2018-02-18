@@ -3,34 +3,33 @@
 <meta content="utf-8" http-equiv="encoding">
 <html lang="{{ DEFAULT_LANG }}">
 <head>
-        {% block head %}
-        {#
-        <title>{% block title %}{% endblock title %}</title>
-        #}
-        <title>{{SITENAME}}</title>
-        <meta charset="utf-8" />
 
-        <!--
-        CSS styles
-        -->
-        <link href="{{ SITEURL }}/theme/css/bootstrap.css"       rel="stylesheet" type="text/css">
-        <!--
-        <link href="{{ SITEURL }}/theme/css/cyborg.css"          rel="stylesheet" type="text/css">
-        <link href="{{ SITEURL }}/theme/css/cosmo.css"           rel="stylesheet" type="text/css">
-        <link href="{{ SITEURL }}/theme/css/sandstone.css"       rel="stylesheet" type="text/css">
-        -->
-        <link href="{{ SITEURL }}/theme/css/slate.css"              rel="stylesheet" type="text/css">
-        <link href="{{ SITEURL }}/theme/css/font-awesome.css"       rel="stylesheet" type="text/css"/>
-        <link href="{{ SITEURL }}/theme/css/pygment-solarized.css"  rel="stylesheet" type="text/css"/>
-        <link href="{{ SITEURL }}/theme/css/main.css"               rel="stylesheet" type="text/css">
-        <link href="{{ SITEURL }}/theme/css/dox.css"                rel="stylesheet" type="text/css">
+    {% block head %}
+    {#
+    <title>{% block title %}{% endblock title %}</title>
+    #}
+    <title>{{SITENAME}}</title>
+    <meta charset="utf-8" />
 
-        <!--
-        this seems like a bad idea.
-        but if I don't put jquery first, I get errors about unrecognized $s.
-        -->
-        <script type="text/javascript" src="{{ SITEURL }}/theme/js/jquery-1.11.2.js"></script>
-        {% endblock head %}
+    <!--
+    CSS styles
+    -->
+    <link href="{{ SITEURL }}/theme/css/bootstrap.css"       rel="stylesheet" type="text/css">
+    <link href="{{ SITEURL }}/theme/css/slate.css"              rel="stylesheet" type="text/css">
+    <link href="{{ SITEURL }}/theme/css/font-awesome.css"       rel="stylesheet" type="text/css"/>
+    <link href="{{ SITEURL }}/theme/css/pygment-solarized.css"  rel="stylesheet" type="text/css"/>
+    <link href="{{ SITEURL }}/theme/css/main.css"               rel="stylesheet" type="text/css">
+    <link href="{{ SITEURL }}/theme/css/dox.css"                rel="stylesheet" type="text/css">
+
+    <!--
+    this seems like a bad idea.
+    but if I don't put jquery first, I get errors about unrecognized $s.
+    -->
+    <script type="text/javascript" src="{{ SITEURL }}/theme/js/jquery-1.11.2.js"></script>
+    {% endblock head %}
+
+    {% block extra_header %}
+    {% endblock %}
 
 </head>
 <body id="index">
