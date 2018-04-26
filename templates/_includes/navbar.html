@@ -16,7 +16,7 @@
                         <a href="/wiki">Wiki</a>
                     </li>
                     <li>
-                        <a href="https://charlesreid1.com:3000/explore">git.charlesreid1.com</a>
+                        <a href="https://git.charlesreid1.com/explore">git.charlesreid1.com</a>
                     </li>
                     <li>
                         <a href="https://github.com/charlesreid1/charlesreid1-awesome/">charlesreid1-awesome</a>
