@@ -2,6 +2,10 @@
  * Custom CSS styles go here.
  */
 
+div .row {
+    margin-bottom: 25px;
+}
+
 img {
   display: block;
   margin-right: auto;
