@@ -7,7 +7,7 @@ This Pelican theme provides templates for charlesreid1.com pages.
 To install the theme, use the `pelican-theme` utility:
 
 ```
-git clone https://charlesreid1.com:3000/charlesreid1/charlesreid1.com-theme.git
+git clone https://git.charlesreid1.com/charlesreid1/charlesreid1.com-theme.git
 
 # if theme not installed, install:
 pelican-themes -i charlesreid1.com-theme
